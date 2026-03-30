@@ -38,12 +38,18 @@ Modern digital platforms generate massive event-level data. The challenge is to:
 ```
 project-root/
 │
-├── processed_data/
+├── 01_data/
+│   └── events_sample.csv (or zip)
+│
+├── 02_python/
+│   └── product_analytics_pipeline.ipynb
+│
+├── 03_processed_data/
 │   ├── category_revenue.csv
 │   ├── funnel_data.csv
 │   └── hourly_purchases.csv
 │
-├── sql/
+├── 04_sql/
 │   ├── 01_create_tables.sql
 │   ├── 02_load_data.sql
 │   ├── 03_data_exploration.sql
@@ -53,16 +59,12 @@ project-root/
 │   ├── 07_dashboard_queries.sql
 │   └── 08_cohort_analysis.sql
 │
-├── python/
-│   └── product_analytics_pipeline.ipynb
-│
-├── powerbi/
-│   └── dashboard.pbix
+├── 05_powerbi/
+│   └── dashboard.pbix   (ADD THIS 🔥)
 │
 └── README.md
 ```
 
----
 
 ## 🔍 Key Analyses
 
