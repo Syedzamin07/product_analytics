@@ -38,7 +38,7 @@ Modern digital platforms generate massive event-level data. The challenge is to:
 ```
 project-root/
 │
-├── 01. data/
+├── 01. dataset/
 │   └── events_sample.csv (or zip)
 │
 ├── 02. python/
@@ -49,7 +49,7 @@ project-root/
 │   ├── funnel_data.csv
 │   └── hourly_purchases.csv
 │
-├── 04. sql/
+├── 04. SQL/
 │   ├── 01. create_tables.sql
 │   ├── 02. load_data.sql
 │   ├── 03. data_exploration.sql
