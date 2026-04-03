@@ -60,7 +60,7 @@ project-root/
 │   └── 08. cohort_analysis.sql
 │
 ├── 05. powerbi/
-│   └── dashboard.pbix   (ADD THIS 🔥)
+│   └── dashboard.pbix
 │
 └── README.md
 ```
